@@ -1,0 +1,139 @@
+.works{
+    margin-bottom: 200px;
+}
+.works__container{
+    max-width: 1045px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+.works__title{
+    font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #83888F;
+margin-bottom: 80px;
+}
+.img__span{
+    max-width: 760px;
+    margin-bottom: 67px;
+}
+.works__list{
+    max-width: 1045px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+.works__item{
+    max-width: 285px;
+}
+.works__item-number{
+    font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+color: #FDD6BA;
+margin-bottom: 38px;
+}
+.works__item-title{
+    max-width: 255px;
+    font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+color: #333D4B;
+margin-bottom: 42px;
+}
+.works__item-subtitle{
+    max-width: 285px;
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #333D4B;
+}
+.a-p{
+    width: 217px;
+    background: #66D2CF;
+border-radius: 6px;
+    padding: 15px 31px;
+    border: none;
+}
+.a-p > p{
+    font-size: 18px;
+    line-height: 25px;
+    color: #FEFCF7; 
+}
+@media screen and (max-width:920px) {
+    .img__span > img{
+        max-width: 497px;
+        
+    }
+    .works__list{
+        max-width: 750px;
+      
+    }
+    .works__title{
+        font-size: 28px;
+line-height: 32px;
+    }
+    .works__item{
+        max-width: 223px;
+       
+    }
+   .works__item-number{
+    max-width: 223px;
+  
+   }
+   .works__item-subtitle{
+       font-size: 15px;
+       line-height: 25px;
+    max-width: 210px
+   }
+}
+@media screen and (max-width:700px) {
+  
+    .works__title{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .img__span{
+        display: none;
+    }
+    .works-top__title{
+        text-align: center;
+       
+    }
+   
+    .works__list{
+        flex-direction: column;
+        
+    }
+    .works__item{
+        text-align: center;
+        align-items: center;
+      margin-bottom: 56px;
+    }
+    .works__item-title{
+        width: 327px;
+        display: flex;
+        align-items: center;
+        max-width: 100%;
+    }
+    .works__item-subtitle{
+        max-width: 227px;
+        width: 227px;
+        align-items: center;  
+    }
+
+    .btn__works{
+         width: 217px;
+    background: #66D2CF;
+border-radius: 6px;
+    padding: 15px 31px;
+    justify-content: center;
+    align-items: center;
+    }
+   
+}
